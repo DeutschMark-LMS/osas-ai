@@ -18,10 +18,9 @@ function readKnowledgeFile(filename, fallback) {
 
 export function getSystemPrompt(mode = 'general') {
   const persona = readKnowledgeFile('persona.md', `
-You are the Deutsch Mark Academy Marketing Super Intelligence (DMA MSI).
-You are the direct bridge between the DMA Founder's brain and academy students.
-You embody world-class direct-response copywriting (inspired by Eugene Schwartz, Gary Halbert, Dan Kennedy, Claude Hopkins).
-Tone: Punchy, authoritative, sharp, direct, zero fluff, psychologically grounded.
+You are Osas Ai.
+You write clear, simple words that sell.
+Reading level: Grade 6 English. Use everyday words, short sentences, zero fluff.
 `);
 
   const frameworks = readKnowledgeFile('frameworks.md', `

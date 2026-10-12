@@ -16,60 +16,60 @@ import {
 // Mode Configurations
 const MODES = {
   grader: {
-    title: 'Sales Page & Copy Grader (100-Point Audit)',
-    label: 'Paste Sales Page Copy or Lead Section',
-    placeholder: 'Paste your headline, opening hook, or full sales letter copy here...\n\nExample:\n"Are you tired of losing clients? Join our 4-week program and learn the secrets of scaling..."',
-    helper: 'Tip: Include the headline, lead, and call-to-action for the most accurate letter grade.',
-    btnText: 'Audit & Grade This Copy',
+    title: 'Sales Page Grader (100-Point Score)',
+    label: 'Paste your web page or sales words here',
+    placeholder: 'Paste your headline, top section, or full page here...\n\nExample:\n"Are you tired of losing clients? We help you get 10 new calls this month..."',
+    helper: 'Tip: Include your headline and your offer for the best score.',
+    btnText: 'Check This Page',
     presets: [
-      { text: 'Sample Agency Sales Pitch', value: 'Attention Agency Owners: Stop relying on referrals. Our Client Engine guarantees 10 qualified sales calls in 30 days or you pay nothing. We build your outbound pipeline, write your cold emails, and train your SDRs. Investment is $3,500/mo. Book a call today.' },
-      { text: 'Sample Course Landing Page', value: 'Learn High-Income Copywriting in 2026! In this 6-module masterclass, I teach you everything about grammar, sales letters, and how to find clients on Upwork. Normal price $497, on sale now for $97.' }
+      { text: 'Sample Agency Offer', value: 'Attention Agency Owners: Stop relying on luck. Our client system guarantees 10 qualified sales calls in 30 days or you pay nothing. We build your email system and train your team. $3,500/month. Book a call today.' },
+      { text: 'Sample Course Page', value: 'Learn High-Income Copywriting! In this 6-week class, I teach you how to write words that sell and find real clients. Normal price $497, on sale today for $97.' }
     ]
   },
   copywriter: {
-    title: 'Direct-Response Copy Chief',
-    label: 'What copy do you need written?',
-    placeholder: 'Specify what you need (e.g., "Write a 3-part welcome email sequence for a $2,000 real estate coaching program targeting burnt-out agents")...',
-    helper: 'Tip: Mention your price, target audience, and main objection.',
-    btnText: 'Generate Direct-Response Copy',
+    title: 'Sales & Ad Writer',
+    label: 'What do you want Osas Ai to write?',
+    placeholder: 'Tell me what you need (like: "Write 3 simple emails to sell a fitness program to busy moms")...',
+    helper: 'Tip: Tell me who you are selling to and how much it costs.',
+    btnText: 'Write My Copy',
     presets: [
-      { text: 'High-Converting Cold Email', value: 'Write a high-converting cold email to B2B SaaS CEOs offering an audit of their onboarding sequence. Emphasize reducing day-1 churn.' },
-      { text: 'VSL Opening Lead (Eugene Schwartz)', value: 'Write a compelling VSL opening lead (first 2 minutes) for a fitness program designed for 40+ busy executives who don\'t have time for 2-hour gym sessions.' },
-      { text: '3-Part Flash Sale Sequence', value: 'Write a 3-part urgency-driven email sequence for a 48-hour flash sale on our flagship marketing blueprint.' }
+      { text: 'Simple Cold Email', value: 'Write a short, friendly cold email to busy business owners offering a free 10-minute check of their website.' },
+      { text: 'Attention-Grabbing Video Intro', value: 'Write an exciting video intro (first 30 seconds) for a fitness program made for busy parents who have no time for long workouts.' },
+      { text: '3-Part Flash Sale Emails', value: 'Write 3 short emails for a quick 48-hour discount sale on our marketing guide.' }
     ]
   },
   hooks: {
-    title: '5-Vector Hook Matrix',
-    label: 'What is your topic or offer?',
-    placeholder: 'Enter your core topic, product, or audience (e.g. "Selling high-ticket fitness coaching to busy fathers" or "E-commerce email marketing")...',
-    helper: 'Produces 10+ hooks: Contrarian, Curiosity Gap, Bleeding Neck, Case Study & Secret Mechanism.',
-    btnText: 'Generate 10+ Viral Hooks',
+    title: 'The Hook Maker',
+    label: 'What is your topic or product?',
+    placeholder: 'Type your main idea or product (like: "How to save money on food" or "Fitness for busy dads")...',
+    helper: 'Gives you 10+ catchy lines that stop people from scrolling.',
+    btnText: 'Make 10+ Catchy Hooks',
     presets: [
-      { text: 'Freelance Lead Gen', value: 'Organic client acquisition for freelance designers without sending spam DMs.' },
-      { text: 'Paid Meta Ads in 2026', value: 'Running profitable Facebook & Instagram ads in 2026 despite rising CPMs and strict tracking.' },
-      { text: 'High-Ticket Sales', value: 'Closing high-ticket clients on Zoom calls without being pushy or using sleazy objection tactics.' }
+      { text: 'Freelance Design', value: 'Getting high-paying design clients without sending awkward cold messages.' },
+      { text: 'Social Media Ads', value: 'Running simple Facebook and Instagram ads that bring in real customers on a small budget.' },
+      { text: 'Closing Deals', value: 'Talking with interested buyers on phone calls without sounding pushy or dishonest.' }
     ]
   },
   scripts: {
-    title: 'High-Retention Video Script Lab',
-    label: 'What is your video topic and goal?',
-    placeholder: 'Describe the video concept, platform (TikTok/Reel/YouTube Short), and desired call-to-action (e.g. "A 60-second Reel explaining why price is never the real objection, ending with CTA to comment \'BLUEPRINT\'")...',
-    helper: 'Includes on-screen text overlays, visual pattern interrupts, and timed retention cues.',
-    btnText: 'Generate Concept Script',
+    title: 'Short Video Script Maker',
+    label: 'What is your video about?',
+    placeholder: 'Describe your video idea, where you will post it (TikTok, Reels, or Shorts), and what you want viewers to do...',
+    helper: 'Includes simple directions on what to say and what to show on screen.',
+    btnText: 'Make Video Script',
     presets: [
-      { text: 'Contrarian 60s Reel', value: 'A 60-second TikTok/Reel explaining why lower pricing actually destroys client trust, directed at coaches and consultants.' },
-      { text: 'Story-Driven Case Study', value: 'A 45-second high-energy video sharing how a student went from zero to their first $5k client using a simple 2-step audit strategy.' }
+      { text: '60s Short Video', value: 'A 60-second video explaining why charging too little actually makes people doubt your quality, for coaches and freelancers.' },
+      { text: 'Simple Student Story', value: 'A quick 45-second story showing how someone went from zero to their first paying client using a simple 2-step checkup.' }
     ]
   },
   general: {
-    title: 'DMA Mastermind — Ask The Brain',
-    label: 'Ask the DMA Founder anything marketing or business related',
-    placeholder: 'Ask strategic questions (e.g. "How should I structure my backend offer to increase customer lifetime value?" or "How do I diagnose why my funnel has a 1.2% checkout conversion?")...',
-    helper: 'Direct bridge to the founder\'s direct-response marketing philosophies.',
-    btnText: 'Consult The Brain',
+    title: 'Ask Osas Ai',
+    label: 'Ask any business or sales question',
+    placeholder: 'Ask your question in simple words (like: "Why are people clicking on my page but not buying?" or "How should I price my service?")...',
+    helper: 'Get honest, direct advice you can use today.',
+    btnText: 'Ask Osas Ai',
     presets: [
-      { text: 'Diagnose Low Conversions', value: 'My sales page has 800 visits, 4% clickthrough to checkout, but 0 sales. What are the top 3 friction points I must audit first?' },
-      { text: 'Pricing & Guarantee Strategy', value: 'I sell a $1,500 done-with-you program. How do I construct a bold, risk-reversing guarantee that doesn\'t leave me exposed to refund scammers?' }
+      { text: 'Why Nobody Buys', value: 'My page got 500 visits, people clicked my button, but zero people bought. What are the top 3 simple things I should check first?' },
+      { text: 'Safe Guarantee Idea', value: 'I sell a $1,000 service. How can I make a strong promise or guarantee so people feel safe buying without getting scammed?' }
     ]
   }
 };
@@ -207,10 +207,10 @@ authForm.addEventListener('submit', async (e) => {
   try {
     if (authMode === 'signup') {
       await signUpStudent(email, password);
-      showToast('Account created! Welcome to DMA MSI.');
+      showToast('Account created! Welcome to Osas Ai.');
     } else {
       await signInStudent(email, password);
-      showToast('Welcome back, Student!');
+      showToast('Welcome back!');
     }
     closeAuth();
   } catch (err) {
@@ -374,8 +374,8 @@ async function handleGenerate() {
   outputContent.innerHTML = `
     <div class="empty-state">
       <div class="loader-spinner" style="width: 32px; height: 32px; border-width: 3px; border-top-color: var(--gold-light);"></div>
-      <h4 style="margin-top: 16px; color: var(--gold-light);">DMA MSI Processing...</h4>
-      <p>Filtering through direct-response doctrine and academy frameworks...</p>
+      <h4 style="margin-top: 16px; color: var(--gold-light);">Osas Ai is thinking...</h4>
+      <p>Looking through the best sales books and rules to help you...</p>
     </div>
   `;
 
@@ -398,12 +398,12 @@ async function handleGenerate() {
     const data = await response.json();
 
     if (!response.ok || !data.success) {
-      const errorMsg = data.error || 'Failed to communicate with intelligence engine.';
+      const errorMsg = data.error || 'Something went wrong while talking to Osas Ai.';
       const errorDetails = data.details ? `<br><small style="color: var(--text-muted);">${data.details}</small>` : '';
       
       outputContent.innerHTML = `
         <div style="padding: 20px; background: rgba(239, 68, 68, 0.1); border: 1px solid var(--accent-red); border-radius: 8px;">
-          <h4 style="color: var(--accent-red); margin-bottom: 8px;">⚠️ Intelligence Engine Notice</h4>
+          <h4 style="color: var(--accent-red); margin-bottom: 8px;">⚠️ Osas Ai Notice</h4>
           <p style="color: #fca5a5; font-size: 0.95rem;">${errorMsg}</p>
           ${errorDetails}
         </div>
@@ -418,7 +418,7 @@ async function handleGenerate() {
     outputContent.innerHTML = `
       <div style="padding: 20px; background: rgba(239, 68, 68, 0.1); border: 1px solid var(--accent-red); border-radius: 8px;">
         <h4 style="color: var(--accent-red); margin-bottom: 8px;">Connection Error</h4>
-        <p style="color: #fca5a5;">Could not reach the server endpoint (/api/chat). Make sure your local server is running or check your network connection.</p>
+        <p style="color: #fca5a5;">Could not reach the Osas Ai server (/api/chat). Make sure your local server is running or check your connection.</p>
       </div>
     `;
   } finally {
@@ -430,7 +430,7 @@ async function handleGenerate() {
 
 copyBtn.addEventListener('click', () => {
   const text = outputContent.innerText;
-  if (!text || text.includes('DMA MSI Ready for Input')) {
+  if (!text || text.includes('Osas Ai is Ready')) {
     showToast('Nothing to copy yet!');
     return;
   }
@@ -447,8 +447,8 @@ clearBtn.addEventListener('click', () => {
   outputContent.innerHTML = `
     <div class="empty-state">
       <div class="empty-icon">💎</div>
-      <h4>DMA MSI Ready for Input</h4>
-      <p>Choose an operational mode on the top, paste your copy or question, and click <strong>Run Intelligence Analysis</strong>.</p>
+      <h4>Osas Ai is Ready</h4>
+      <p>Pick a tool above, paste your words, and click <strong>Let Osas Ai Write</strong>.</p>
     </div>
   `;
   showToast('Cleared!');
