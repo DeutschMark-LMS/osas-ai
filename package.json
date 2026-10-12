@@ -1,0 +1,10 @@
+{
+  "name": "dma-marketing-super-intelligence",
+  "version": "1.0.0",
+  "description": "Deutsch Mark Academy Marketing Super Intelligence (Zero Dependencies)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+
